@@ -1,0 +1,239 @@
+.nav {
+  display: flex;
+  height: 130px;
+  width: 100%;
+  flex-direction: column;
+}
+.nav .nav-top {
+  height: 70%;
+  width: 99%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .nav-top #logo {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+.nav .nav-top #logo h3 {
+  padding-left: 10px;
+  font-weight: lighter;
+}
+.nav .nav-top #search {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 40px;
+}
+.nav .nav-top #search input {
+  height: 100%;
+  width: 60%;
+  border: none;
+  background: #f3f3f3;
+}
+.nav .nav-top #search span {
+  width: 20%;
+  height: 100%;
+  background: #61dafb;
+  display: inline-block;
+  padding-top: 8px;
+  padding-left: 25px;
+  border-radius: 25px 0 0 25px;
+  color: #fff;
+  font-size: 1.2em;
+}
+.nav .nav-top #search span img {
+  display: inline-block;
+  width: 20px;
+  margin-left: 25px;
+}
+.nav .nav-top #search button {
+  width: 8%;
+  height: 40px;
+  border-radius: 0 25px 25px 0;
+  background: #999;
+  border: none;
+}
+.nav .nav-top #search button:hover {
+  cursor: pointer;
+}
+.nav .nav-top #search button img {
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 5px;
+  height: 65%;
+}
+.nav .nav-top #notification {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: space-evenly;
+  background: #000;
+}
+.nav .nav-top #notification #theme-light {
+  width: 20%;
+}
+.nav .nav-top #notification .nav-icon {
+  height: 40px;
+}
+.nav .nav-top #notification .nav-icon img {
+  width: 100%;
+  height: 100%;
+}
+.nav .nav-bottom {
+  height: 40%;
+  width: 100%;
+  background: #000;
+}
+.nav .nav-bottom .nav-bar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav .nav-bottom .nav-bar .nav-items {
+  display: flex;
+  align-items: center;
+}
+.nav .nav-bottom .nav-bar .nav-items .icon-nav {
+  display: block;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+.nav .nav-bottom .nav-bar .nav-items .icon-nav img {
+  height: 100%;
+}
+.nav .nav-bottom .nav-bar .nav-items .nav-links {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+.container .intro {
+  width: 100%;
+  height: 280px;
+  padding-left: 30px;
+  border-radius: 0 0 25px 25px;
+  box-shadow: 5px 10px 10px #999, -5px 10px 10px #999;
+}
+.container .intro h1 {
+  font-size: 3em;
+  width: 85%;
+  padding: 20px 0;
+}
+.container .intro p {
+  font-size: 1.5em;
+  width: 65%;
+  color: #999;
+}
+.container .intro .btn {
+  width: 18%;
+  height: 40px;
+  float: right;
+  font-size: 1.2em;
+  border-radius: 15px;
+  border: 1px solid transparent;
+  color: #fff;
+  margin-right: 40px;
+}
+.container .intro .btn:hover {
+  cursor: pointer;
+}
+.container .job-categories {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 35px;
+  height: 280px;
+  border-radius: 25px;
+  padding: 0 50px;
+  box-shadow: 5px 5px 10px #999, -5px -5px 10px #999, 5px 5px 10px #999, -5px -5px 10px #999;
+}
+.container .job-categories #job {
+  height: 50%;
+  border-bottom: 1px solid #999;
+}
+.container .job-categories #job h2 {
+  border-bottom: 1px solid #999;
+  padding-top: 5px;
+}
+.container .job-categories #job h3 {
+  font-size: 1.5em;
+  padding-bottom: 18px;
+}
+.container .job-categories #job .cat {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+.container .job-categories #job .cat span {
+  width: 25%;
+  display: block;
+  border-radius: 25px;
+  padding-top: 10px;
+  text-align: center;
+  height: 40px;
+}
+.container .job-categories #job .cat span:hover {
+  cursor: pointer;
+}
+.container .job-categories #job .cat span:nth-child(odd) {
+  background: #999;
+  color: #fff;
+}
+.container .job-categories #job .cat span:nth-child(even) {
+  border: 1px solid;
+}
+.container .job-categories #challenges {
+  height: 50%;
+}
+.container .job-categories #challenges h2 {
+  border-bottom: 1px solid #999;
+  padding-top: 5px;
+}
+.container .job-categories #challenges h3 {
+  font-size: 1.5em;
+  padding-bottom: 18px;
+}
+.container .job-categories #challenges .cat {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+.container .job-categories #challenges .cat span {
+  width: 25%;
+  display: block;
+  border-radius: 25px;
+  padding-top: 10px;
+  text-align: center;
+}
+.container .job-categories #challenges .cat span:hover {
+  cursor: pointer;
+}
+.container .job-categories #challenges .cat span:nth-child(even) {
+  background: #999;
+  color: #fff;
+}
+.container .job-categories #challenges .cat span:nth-child(odd) {
+  border: 1px solid;
+}
+.container .job-card {
+  height: 480px;
+  width: 95%;
+  margin: 50px auto;
+  border: 1px solid;
+}/*# sourceMappingURL=style.css.map */

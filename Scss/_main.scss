@@ -1,0 +1,123 @@
+.container{
+    width: 75%;
+    margin: 0 auto;
+    .intro{
+        width: 100%;
+        height: 280px;
+        padding-left: 30px;
+        border-radius: 0 0 25px 25px;
+        box-shadow: 
+                    5px 10px 10px #999,
+                    -5px 10px 10px #999;
+        h1{
+            font-size: 3em;
+            width: 85%;
+            padding: 20px 0;
+        }
+        p{
+            font-size: 1.5em;
+            width: 65%;
+            color: #999;
+        }
+        .btn{
+            width: 18%;
+            height: 40px;
+            float: right;
+            font-size: 1.2em;
+            border-radius: 15px;
+            border: 1px solid transparent;
+            color: #fff;
+            margin-right: 40px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    .job-categories{
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 35px;
+        height: 280px;
+        border-radius: 25px;
+        padding: 0 50px;
+        box-shadow: 
+                    5px 5px 10px #999,
+                    -5px -5px 10px #999,
+                    5px 5px 10px #999,
+                    -5px -5px 10px #999;
+        #job{
+            height: 50%;
+            border-bottom: 1px solid #999;
+        h2{
+            border-bottom: 1px solid #999;
+            padding-top: 5px;
+        }
+        h3{
+            font-size: 1.5em;
+            padding-bottom: 18px;
+        }
+        .cat{
+            display: flex;
+            justify-content: space-between;
+            height: 40px;
+            span{
+                width: 25%;
+                display: block;
+                border-radius: 25px;
+                padding-top: 10px;
+                text-align: center;
+                height: 40px;
+                &:hover{
+                    cursor: pointer;
+                }
+                &:nth-child(odd){
+                    background: #999;
+                    color: #fff;
+                }
+                &:nth-child(even){
+                    border: 1px solid;
+                }
+            }
+        }
+    }
+        #challenges{
+            height: 50%;
+            h2{
+                border-bottom: 1px solid #999;
+                padding-top: 5px;
+            }
+             h3{
+            font-size: 1.5em;
+            padding-bottom: 18px;
+        }
+            .cat{
+            display: flex;
+            justify-content: space-between;
+            height: 40px;
+            span{
+                width: 25%;
+                display: block;
+                border-radius: 25px;
+                padding-top: 10px;
+                text-align: center;
+                &:hover{
+                    cursor: pointer;
+                }
+                &:nth-child(even){
+                    background: #999;
+                    color: #fff;
+                }
+                &:nth-child(odd){
+                    border: 1px solid;
+                }
+            }
+        }
+        }
+    }
+    .job-card{
+        height: 480px;
+        width: 95%;
+        margin:  50px auto;
+        border: 1px solid;
+    }
+}
